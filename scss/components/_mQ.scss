@@ -253,7 +253,7 @@
    }
    .container-second-section{
       margin-top: 250px !important;
-      height: 80vh !important;
+      height: 60vh !important;
       img.phones{
          width: 100%;
          height: auto;
@@ -263,8 +263,32 @@
       height: 115vh !important;
       .thirdsection-box1{
          .patter-ts-mobile{
-            width: 130vw !important;
-            height: auto !important;
+            height: 80% !important;
+         }
+      }
+   }
+}
+
+@media (max-width: 375px) {
+   .container-nav{
+      height: 90vh !important;
+   }
+   .container-first-section{
+      height: 190vh !important;
+   }
+   .container-second-section{
+      margin-top: 250px !important;
+      height: 80vh !important;
+      img.phones{
+         width: 100%;
+         height: auto;
+      }
+   }
+   .container-third-section{
+      height: 145vh !important;
+      .thirdsection-box1{
+         .patter-ts-mobile{
+            height: 80% !important;
          }
       }
    }
