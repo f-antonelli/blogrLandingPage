@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+@import "settings/colors";
+@import "settings/mixins";
+@import "components/mQ";
+@import "components/nav";
+@import "components/fsSection";
+@import "components/ssSection";
+@import "components/tsSection";
+@import "components/footer";
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   //font-family: 'Overpass', sans-serif;
+   font-family: 'Ubuntu', sans-serif;
+}

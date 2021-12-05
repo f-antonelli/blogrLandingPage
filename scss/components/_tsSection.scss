@@ -1,0 +1,44 @@
+.container-third-section{
+   position: relative;
+   display: flex;
+   height: 70vh;
+   color: $dark-blue-headings;
+   overflow: hidden;
+   margin-top: 40px;
+   .thirdsection-box1{
+      display: flex;
+      flex: 50%;
+      .patter-ts{
+         position: absolute;
+         left: -210px;
+         top: 40px;
+         height: 600px;
+      }
+      .patter-ts-mobile{
+         display: none;
+      }
+   }
+   .thirdsection-box2{
+      display: flex;
+      flex: 50%;
+      .text-box-ts{
+         z-index: 1000;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         padding: 0 10%;
+         h4{
+            padding-top: 15px;
+            font-size: 20px;
+            font-weight: 300;
+         }
+         p{
+            color: $dark-grayish-body;
+            font-family: 'Overpass', sans-serif;
+            font-size: 15px;
+            padding-top: 15px;
+            line-height: 25px;
+         }
+      }
+   }
+}

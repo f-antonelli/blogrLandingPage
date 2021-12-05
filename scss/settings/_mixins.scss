@@ -1,0 +1,9 @@
+@mixin btnNav($c, $pad) {
+   outline: none;
+   border: none;
+   background: $white;
+   padding: $pad;
+   border-radius: 20px;
+   color: $c;
+   font-weight: 600;
+}

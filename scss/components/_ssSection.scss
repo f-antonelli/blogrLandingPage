@@ -1,0 +1,51 @@
+.container-second-section{
+   position: relative;
+   display: flex;
+   height: 30vh;
+   background: linear-gradient(90deg, $dark-gray-blue, $dark-desaturated-blue);
+   margin-top: 30px;
+   border-end-start-radius: 60px;
+   border-top-right-radius: 60px;
+   .container-pattern-circles{
+      z-index: 100;
+      position: relative;
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      border-end-start-radius: 60px;
+      border-top-right-radius: 60px;
+      img.pattern-circles{
+         position: absolute;
+         left: -145px;
+         top: -330px;
+         width: 700px;
+      }
+   }
+   .phones{
+      z-index: 991;
+      position: absolute;
+      left: 50px;
+      top: -50px;
+      height: 420px;
+   }
+   .text-banner-ss{
+      position: relative;
+      z-index: 200;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: $white;
+      width: 100%;
+      padding: 0 10%;
+      h4{
+         font-size: 25px;
+         font-weight: 300;
+      }
+      p{
+         font-family: 'Overpass', sans-serif;
+         font-size: 15px;
+         padding-top: 15px;
+         line-height: 25px;
+      }
+   }
+}

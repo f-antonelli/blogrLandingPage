@@ -1,0 +1,40 @@
+.container-first-section{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   height: 70vh;
+   color: $dark-blue-headings;
+   overflow: hidden;
+   .patter-fs{
+      position: absolute;
+      right: -200px;
+      top: 40px;
+      height: 600px;
+   }
+   .patter-fs-mobile{
+      display: none;
+   }
+   h3{
+      margin-top: 70px;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 300;
+   }
+   .text-box-fs{
+      width: 60vw;
+      margin-top: 90px;
+      padding: 0 10%;
+      h4{
+         padding-top: 15px;
+         font-size: 20px;
+         font-weight: 300;
+      }
+      p{
+         color: $dark-grayish-body;
+         font-family: 'Overpass', sans-serif;
+         font-size: 15px;
+         padding-top: 15px;
+         line-height: 25px;
+      }
+   }
+}
