@@ -194,11 +194,19 @@
     padding: 50px !important; } }
 
 @media (max-width: 500px) {
+  .container-first-section .box-imgpattern {
+    margin-bottom: 20px; }
   .container-second-section {
     margin-top: 250px !important;
-    height: 65vh !important; }
+    height: 80vh !important; }
+    .container-second-section img.phones {
+      width: 100%;
+      height: auto; }
   .container-third-section {
-    height: 115vh !important; } }
+    height: 115vh !important; }
+    .container-third-section .thirdsection-box1 .patter-ts-mobile {
+      width: 130vw !important;
+      height: auto !important; } }
 
 .nav-mob {
   display: none; }
